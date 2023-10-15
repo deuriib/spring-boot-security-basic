@@ -1,0 +1,10 @@
+server:
+  port: 8081
+application:
+  title: "Security"
+  version: "0.0.1-SNAPSHOT"
+spring:
+  security:
+    user:
+      name: admin
+      password: admin

@@ -1,0 +1,10 @@
+services:
+  security:
+    image: security:0.0.1-SNAPSHOT
+    build:
+        context: .
+        dockerfile: Dockerfile
+    environment:
+        - "SPRING_PROFILES_ACTIVE=docker"
+    ports:
+      - "8081"
